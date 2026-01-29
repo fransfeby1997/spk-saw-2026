@@ -1,0 +1,13 @@
+[
+{"type":"header","version":"4.9.0.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"if0_38297241_saw"},
+{"type":"table","name":"kriteria","database":"if0_38297241_saw","data":
+[
+{"id":"1","nama_kriteria":"Integritas","jenis_kriteria":"Benefit","bobot_kriteria":"30","created_at":"2025-02-10 14:53:19","updated_at":"2025-02-10 14:53:19"},
+{"id":"2","nama_kriteria":"Kerjasama","jenis_kriteria":"Benefit","bobot_kriteria":"20","created_at":"2025-02-10 14:53:29","updated_at":"2025-02-10 14:53:29"},
+{"id":"3","nama_kriteria":"Pelayanan","jenis_kriteria":"Benefit","bobot_kriteria":"20","created_at":"2025-02-10 14:53:39","updated_at":"2025-02-10 14:53:39"},
+{"id":"4","nama_kriteria":"Kedisiplinan","jenis_kriteria":"Benefit","bobot_kriteria":"15","created_at":"2025-02-10 14:53:50","updated_at":"2025-02-10 14:53:50"},
+{"id":"6","nama_kriteria":"Komitmen","jenis_kriteria":"Benefit","bobot_kriteria":"15","created_at":"2025-12-23 04:20:35","updated_at":"2025-12-23 04:22:48"}
+]
+}
+]

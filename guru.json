@@ -1,0 +1,43 @@
+[
+{"type":"header","version":"4.9.0.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"if0_38297241_saw"},
+{"type":"table","name":"guru","database":"if0_38297241_saw","data":
+[
+{"id":"1","nip":"19671007 199003 2 002","nama_guru":"Roida Rusliana","tgl_lahir":"1982-01-01","jenis_kelamin":"Perempuan","jabatan":"Bidan Ahli","alamat":"Duri","created_at":"2025-02-10 14:52:36","updated_at":"2025-12-23 03:52:06"},
+{"id":"2","nip":"19711123 199201 2 001","nama_guru":"Arry Anggi","tgl_lahir":"2006-02-12","jenis_kelamin":"Laki-laki","jabatan":"Bidan Terampil","alamat":"Pekanbaru","created_at":"2025-02-10 14:52:42","updated_at":"2025-04-16 00:19:36"},
+{"id":"5","nip":"19680521 199101 1 001","nama_guru":"Elpi Amelia","tgl_lahir":"2001-03-27","jenis_kelamin":"Perempuan","jabatan":"Perawat Terampil","alamat":"Dumai","created_at":"2025-02-10 14:53:00","updated_at":"2025-04-16 00:19:51"},
+{"id":"9","nip":"19680510 199101 1 004","nama_guru":"Sofinah","tgl_lahir":"2017-02-07","jenis_kelamin":"Laki-laki","jabatan":"Perawat Terampil","alamat":"Pangkalan Kerinci","created_at":"2025-03-15 23:32:54","updated_at":"2025-04-16 00:20:03"},
+{"id":"11","nip":"197801012005022000","nama_guru":"Ijang Mulyana","tgl_lahir":null,"jenis_kelamin":"Laki-laki","jabatan":"Bidan Ahli","alamat":"Duri","created_at":"2025-03-15 23:44:33","updated_at":"2025-04-16 00:20:55"},
+{"id":"12","nip":"196805101991011004","nama_guru":"Wahyu Widodo","tgl_lahir":null,"jenis_kelamin":"Laki Laki","jabatan":"Perawat Terampil","alamat":"Dumai","created_at":"2025-04-21 00:11:52","updated_at":"2025-04-21 00:11:52"},
+{"id":"13","nip":"197510151998032004","nama_guru":"Ika Mustika","tgl_lahir":null,"jenis_kelamin":"Laki Laki","jabatan":"Perawat Terampil","alamat":"Pekanbaru","created_at":"2025-04-21 00:12:36","updated_at":"2025-04-21 00:12:36"},
+{"id":"14","nip":"198002132006042006","nama_guru":"Roslyna Herawati,","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Analisa Lab Ahli","alamat":"Pekanbaru","created_at":"2025-04-21 00:13:18","updated_at":"2025-04-21 00:13:18"},
+{"id":"15","nip":"197707212005022005","nama_guru":"Farentina","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Bidan Ahli","alamat":"Dumai","created_at":"2025-04-21 00:13:50","updated_at":"2025-04-21 00:13:50"},
+{"id":"16","nip":"197201051991011001","nama_guru":"Dadang","tgl_lahir":null,"jenis_kelamin":"Laki Laki","jabatan":"Perawat Terampil","alamat":"Pekanbaru","created_at":"2025-04-21 00:14:25","updated_at":"2025-04-21 00:14:25"},
+{"id":"17","nip":"198105252010012021","nama_guru":"Elni Suzana","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Kesmas","alamat":"Pekanbaru","created_at":"2025-04-21 00:15:18","updated_at":"2025-04-21 00:15:18"},
+{"id":"18","nip":"197903252010012014","nama_guru":"Masrita Sinaga","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Nutrisionis Terampil","alamat":"Pekanbaru","created_at":"2025-04-21 00:16:05","updated_at":"2025-04-21 00:16:05"},
+{"id":"19","nip":"198010072010011015","nama_guru":"Masrukin","tgl_lahir":null,"jenis_kelamin":"Laki Laki","jabatan":"Perawat Terampil","alamat":"Duri","created_at":"2025-04-21 00:16:37","updated_at":"2025-04-21 00:16:37"},
+{"id":"20","nip":"197511242005022001","nama_guru":"Herawati Siregar","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Bidan Ahli","alamat":"Pekanbaru","created_at":"2025-04-21 00:17:20","updated_at":"2025-04-21 00:17:20"},
+{"id":"21","nip":"198809142019032001","nama_guru":"Amin Suliah","tgl_lahir":null,"jenis_kelamin":"Laki Laki","jabatan":"Ners","alamat":"Pekanbaru","created_at":"2025-04-21 00:17:59","updated_at":"2025-04-21 00:17:59"},
+{"id":"22","nip":"198611262019032001","nama_guru":"Marda Wira","tgl_lahir":null,"jenis_kelamin":"Laki Laki","jabatan":"Perawat Ahli","alamat":"Pekanbaru","created_at":"2025-04-21 00:18:45","updated_at":"2025-04-21 00:18:45"},
+{"id":"23","nip":"198303152006041005","nama_guru":"Suwito","tgl_lahir":null,"jenis_kelamin":"Laki Laki","jabatan":"Perawat Terampil","alamat":"Medan","created_at":"2025-04-21 00:19:21","updated_at":"2025-04-21 00:19:21"},
+{"id":"24","nip":"197610162006042008","nama_guru":"Husniyati","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Bidan Ahli","alamat":"Jambi","created_at":"2025-04-21 00:19:57","updated_at":"2025-04-21 00:19:57"},
+{"id":"25","nip":"198609272010012033","nama_guru":"Afifatul Husna","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Perawat Terampil","alamat":"Pekanbaru","created_at":"2025-04-21 00:20:34","updated_at":"2025-04-21 00:20:34"},
+{"id":"26","nip":"198001232019052000","nama_guru":"Julia Betri Ningsih","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Bidan Ahli","alamat":"Pekanbaru","created_at":"2025-04-21 00:21:19","updated_at":"2025-04-21 00:21:19"},
+{"id":"27","nip":"198607082017052003","nama_guru":"Lichomsatun","tgl_lahir":null,"jenis_kelamin":"Laki Laki","jabatan":"Bidan Ahli","alamat":"Medan","created_at":"2025-04-21 00:21:59","updated_at":"2025-04-21 00:21:59"},
+{"id":"28","nip":"98903082011022002","nama_guru":"Irawati","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Bidan Terampil","alamat":"Palembang","created_at":"2025-04-21 00:22:35","updated_at":"2025-04-21 00:22:35"},
+{"id":"29","nip":"198401202017052002","nama_guru":"Wiwik Sri Rahayu","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Bidan Ahli","alamat":"Jambi","created_at":"2025-04-21 00:23:17","updated_at":"2025-04-21 00:23:17"},
+{"id":"30","nip":"198507252017052002","nama_guru":"Yuhardina","tgl_lahir":null,"jenis_kelamin":"Laki Laki","jabatan":"Bidan Ahli","alamat":"Palembang","created_at":"2025-04-21 00:24:01","updated_at":"2025-04-21 00:24:01"},
+{"id":"31","nip":"197703162006042015","nama_guru":"Elly Asniar","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Bidan Terampil","alamat":"Lampung","created_at":"2025-04-21 00:24:37","updated_at":"2025-04-21 00:24:37"},
+{"id":"32","nip":"198809272011022003","nama_guru":"Nova Eran","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Kesling","alamat":"Pekanbaru","created_at":"2025-04-21 00:25:18","updated_at":"2025-04-21 00:25:18"},
+{"id":"33","nip":"196808251992031003","nama_guru":"Ishak","tgl_lahir":null,"jenis_kelamin":"Laki Laki","jabatan":"Bendahara Rutin","alamat":"Pekanbaru","created_at":"2025-04-21 00:26:39","updated_at":"2025-04-21 00:26:39"},
+{"id":"34","nip":"198005052005022004","nama_guru":"Dwi May Cristiana","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Perawat Gigi","alamat":"Pekanbaru","created_at":"2025-04-21 00:27:20","updated_at":"2025-04-21 00:27:20"},
+{"id":"35","nip":"198408122017052001","nama_guru":"Yusnani Sirait","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Bidan Terampil","alamat":"Bengkulu","created_at":"2025-04-21 00:27:54","updated_at":"2025-04-21 00:27:54"},
+{"id":"36","nip":"198409052017052002","nama_guru":"Ratna Sari Dewi,","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Bidan Terampil","alamat":"Pekanbaru","created_at":"2025-04-21 00:28:37","updated_at":"2025-04-21 00:28:37"},
+{"id":"37","nip":"199001262017052002","nama_guru":"Vamela Elvia","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Bidan Terampil","alamat":"Jakarta","created_at":"2025-04-21 00:29:20","updated_at":"2025-04-21 00:29:20"},
+{"id":"38","nip":"198806102015031002","nama_guru":"Seto Setiawan","tgl_lahir":null,"jenis_kelamin":"Laki Laki","jabatan":"Perawat Terampil","alamat":"Medan","created_at":"2025-04-21 00:29:55","updated_at":"2025-04-21 00:29:55"},
+{"id":"39","nip":"199111092019031001","nama_guru":"Novi Andianto","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Apoteker","alamat":"Pekanbaru","created_at":"2025-04-21 00:30:29","updated_at":"2025-04-21 00:30:29"},
+{"id":"40","nip":"197107132019052001","nama_guru":"Lindawati","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"Bidan Terampil","alamat":"Pekanbaru","created_at":"2025-04-21 00:31:01","updated_at":"2025-04-21 00:31:01"},
+{"id":"43","nip":"1980021320060420012111","nama_guru":"asd22","tgl_lahir":null,"jenis_kelamin":"Perempuan","jabatan":"asd","alamat":"asd","created_at":"2026-01-29 01:44:07","updated_at":"2026-01-29 01:47:02"}
+]
+}
+]
