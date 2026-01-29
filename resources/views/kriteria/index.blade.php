@@ -66,7 +66,7 @@
                                             <td>
                                                 <a type="button" class="btn btn-primary" data-bs-toggle="modal"
                                                     data-bs-target="#edit-{{ $kriteria->id }}"><i
-                                                        class="bx bxs-edit"></i></a><br><br>
+                                                        class="bx bxs-edit"></i></a>
                                                 <a type="button" class="btn btn-primary" data-bs-toggle="modal"
                                                     data-bs-target="#delete-{{ $kriteria->id }}"><i
                                                         class="bx bx-trash"></i></a>
