@@ -15,12 +15,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // Create Admin User
-        User::create([
-            'name' => 'Admin',
-            'email' => 'admin@gmail.com',
-            'password' => Hash::make('password'),
-        ]);
+        // Create Admin User (only if not exists)
+        User::firstOrCreate(
+            ['email' => 'admin@gmail.com'],
+            [
+                'name' => 'Admin',
+                'password' => Hash::make('password'),
+            ]
+        );
 
         // Create Kriteria (SAW Criteria)
         $kriteria = [
@@ -32,7 +34,10 @@ class DatabaseSeeder extends Seeder
         ];
 
         foreach ($kriteria as $k) {
-            Kriteria::create($k);
+            Kriteria::firstOrCreate(
+                ['nama_kriteria' => $k['nama_kriteria']],
+                $k
+            );
         }
 
         // Create Pegawai/Guru Data
@@ -74,7 +79,10 @@ class DatabaseSeeder extends Seeder
         ];
 
         foreach ($pegawai as $p) {
-            Guru::create($p);
+            Guru::firstOrCreate(
+                ['nip' => $p['nip']],
+                $p
+            );
         }
     }
 }
