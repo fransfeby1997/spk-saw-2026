@@ -40,14 +40,14 @@
   ======================================================== -->
 </head>
 <style>
-        body {
-            background-image: url('{{ asset("/assets/img/puskesmas.png") }}');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            height: 100vh;
-        }
-    </style>
+    body {
+        background-image: url('{{ asset("puskesmas.png") }}');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+</style>
 
 <body>
 
@@ -60,60 +60,57 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
-                            
-                                    <img src="assets/img/logopuskesmas.png" alt="" width="150" height="auto"> <br>
-                                    
-                            </div><!-- End Logo -->
 
-                            <div class="card mb-3">
+                            <img src="assets/img/logopuskesmas.png" alt="" width="150" height="auto"> <br>
 
-                                <div class="card-body">
+                        </div><!-- End Logo -->
 
-                                    <div class="pt-4 pb-2">
-                                        <h5 class="card-title text-center pb-0 fs-4">Login</h5>
-                                        <p class="text-center small">Enter your email & password to login</p>
+                        <div class="card mb-3">
+
+                            <div class="card-body">
+
+                                <div class="pt-4 pb-2">
+                                    <h5 class="card-title text-center pb-0 fs-4">Login</h5>
+                                    <p class="text-center small">Enter your email & password to login</p>
+                                </div>
+
+                                <form method="POST" action="{{ url('/') }}" class="row g-3 needs-validation" novalidate>
+                                    @csrf
+                                    @if ($errors->any())
+                                        <div class="alert alert-danger">
+                                            <ul class="mb-0">
+                                                @foreach ($errors->all() as $error)
+                                                    <li>{{ $error }}</li>
+                                                @endforeach
+                                            </ul>
+                                        </div>
+                                    @endif
+                                    <div class="col-12">
+                                        <label for="email" class="form-label">Email</label>
+                                        <div class="input-group has-validation">
+                                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                            <input type="text" name="email" class="form-control" id="email">
+                                        </div>
                                     </div>
 
-                                    <form method="POST" action="{{ url('/') }}" class="row g-3 needs-validation"
-                                        novalidate>
-                                        @csrf
-                                        @if ($errors->any())
-                                            <div class="alert alert-danger">
-                                                <ul class="mb-0">
-                                                    @foreach ($errors->all() as $error)
-                                                        <li>{{ $error }}</li>
-                                                    @endforeach
-                                                </ul>
-                                            </div>
-                                        @endif
-                                        <div class="col-12">
-                                            <label for="email" class="form-label">Email</label>
-                                            <div class="input-group has-validation">
-                                                <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                                <input type="text" name="email" class="form-control" id="email"
-                                                    >
-                                            </div>
-                                        </div>
+                                    <div class="col-12">
+                                        <label for="yourPassword" class="form-label">Password</label>
+                                        <input type="password" name="password" class="form-control" id="yourPassword">
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100" type="submit">Login</button>
+                                    </div>
+                                </form>
 
-                                        <div class="col-12">
-                                            <label for="yourPassword" class="form-label">Password</label>
-                                            <input type="password" name="password" class="form-control"
-                                                id="yourPassword">
-                                        </div>
-                                        <div class="col-12">
-                                            <button class="btn btn-primary w-100" type="submit">Login</button>
-                                        </div>
-                                    </form>
-                                    
 
-                                </div>
                             </div>
-
                         </div>
+
                     </div>
                 </div>
+        </div>
 
-            </section>
+        </section>
 
         </div>
     </main><!-- End #main -->
